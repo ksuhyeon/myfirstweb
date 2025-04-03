@@ -109,21 +109,18 @@ header{
     display: flex;
 }
 .movie-chart ul li{
-    margin-right: 32px;
-    
+    margin-right: 32px;   
 }
-#movie1{
-    background-image: url(images/movie1.jpg);
+.movie-img{
+    width: 170px;
+    height: 234px;
+    border-radius: 10px;
 }
-#movie2{
-    background-image: url(images/movie2.jpg);
+.movie-info{
+    text-align: center;
+    margin-top: 14px;
 }
-#movie3{
-    background-image: url(images/movie3.jpg);
-}
-#movie4{
-    background-image: url(images/movie4.jpg);
-}
-#movie5{
-    background-image: url(images/movie5.jpg);
+.movie-info img{
+    width: 16px;
+    height: 16px;
 }
